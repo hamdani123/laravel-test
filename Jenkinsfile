@@ -4,6 +4,7 @@ pipeline {
     staging_server="103.117.57.55" // app server ip 
     remote_dir="/home/aplikasi/test/" // app server directory
     remote_user="aplikasi" // app server user
+    test
   }
   stages {
     stage('Deploy') {
